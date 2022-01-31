@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Swifty-companion</string>
+    <string name="login">Login</string>
+    <string name="auth_canceled">Authentication failed</string>
+</resources>
