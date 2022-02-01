@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.transition:transition:1.4.1@aar">
     <ANNOTATIONS>
-      <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/ebac9e2cc564e44a7391f9fe02c194e8/transformed/transition-1.4.1/annotations.zip!/" />
+      <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/dbca9de9dce102b36444e39b1cc28b8a/transformed/transition-1.4.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/ebac9e2cc564e44a7391f9fe02c194e8/transformed/transition-1.4.1/jars/classes.jar!/" />
-      <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/ebac9e2cc564e44a7391f9fe02c194e8/transformed/transition-1.4.1/res" />
-      <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/ebac9e2cc564e44a7391f9fe02c194e8/transformed/transition-1.4.1/AndroidManifest.xml" />
+      <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/dbca9de9dce102b36444e39b1cc28b8a/transformed/transition-1.4.1/res" />
+      <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/dbca9de9dce102b36444e39b1cc28b8a/transformed/transition-1.4.1/AndroidManifest.xml" />
+      <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/dbca9de9dce102b36444e39b1cc28b8a/transformed/transition-1.4.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

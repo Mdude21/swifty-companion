@@ -1,7 +1,7 @@
-package com.example.swifty_companion
+package com.example.swifty_companion.presentation.activity
 
 import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import com.example.swifty_companion.R
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
 }
