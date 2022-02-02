@@ -12,5 +12,14 @@ data class User(
     val login: String,
 
     @SerialName("image_url")
-    val imageUrl: String
+    val imageUrl: String,
+
+    @SerialName("email")
+    val email: String,
+
+    @SerialName("displayname")
+    val displayname: String,
+
+    @SerialName("phone")
+    val phone: String
 )

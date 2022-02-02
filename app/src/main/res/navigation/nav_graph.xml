@@ -21,6 +21,18 @@
         tools:layout="@layout/fragment_search"
         android:name="com.example.swifty_companion.presentation.fragment.SearchFragment"
         android:label="searchFragment">
+        <action
+            android:id="@+id/action_searchFragment_to_infoFragment"
+            app:destination="@id/infoFragment"
+            app:popUpTo="@id/searchFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/infoFragment"
+        tools:layout="@layout/fragment_info"
+        android:name="com.example.swifty_companion.presentation.fragment.InfoFragment"
+        android:label="infoFragment">
     </fragment>
 
 

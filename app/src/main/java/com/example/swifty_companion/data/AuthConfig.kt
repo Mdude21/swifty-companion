@@ -1,5 +1,6 @@
 package com.example.swifty_companion.data
 
+import com.example.swifty_companion.data.model.User
 import net.openid.appauth.ResponseTypeValues
 
 //import net.openid.appauth.ResponseTypeValues
@@ -15,5 +16,6 @@ object AuthConfig {
     const val RESPONSE_TYPE = ResponseTypeValues.CODE
     const val CALLBACK_URL = "school://kts.studio/callback"
     var TOKEN : String? = null
+    var User : User? = null
 
 }

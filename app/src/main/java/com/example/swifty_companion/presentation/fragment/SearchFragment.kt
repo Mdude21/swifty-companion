@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.bumptech.glide.Glide
@@ -44,6 +45,10 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
         binding.buttonSearch.setOnClickListener {
             viewModel.getUserByLogin(binding.editTextSearch.text.toString())
 
+        }
+
+        binding.usernameTextView.setOnClickListener {
+            findNavController().navigate(R.id.action_searchFragment_to_infoFragment)
         }
         Toast.makeText(context, AuthConfig.TOKEN, Toast.LENGTH_SHORT).show()
         Log.d("mdude", "${AuthConfig.TOKEN}")
