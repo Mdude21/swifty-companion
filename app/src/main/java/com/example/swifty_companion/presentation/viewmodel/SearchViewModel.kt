@@ -1,11 +1,14 @@
 package com.example.swifty_companion.presentation.viewmodel
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.example.swifty_companion.data.model.User
 import com.example.swifty_companion.data.repository.SearchRepository
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.launch
 
 class SearchViewModel : ViewModel() {
 
@@ -15,12 +18,29 @@ class SearchViewModel : ViewModel() {
 
     private val userLiveData = MutableLiveData<User>()
 
+    private val defaultUser = User(0, "Error", "qwe")
+
     val user: LiveData<User>
         get() = userLiveData
 
     fun getUserByLogin(login: String){
         currentInfoJob?.cancel()
 
+        currentInfoJob = viewModelScope.launch {
+            runCatching {
+                repository.getUserByLogin(login)
+            }
+                .onSuccess{
+                    userLiveData.postValue(it)
+                    Log.d("mdude", "${it}")
+                }
+                .onFailure {
+                    Log.d("mdude", "${it}")
+                    userLiveData.postValue(defaultUser)
+
+
+                }
+        }
     }
 
 }

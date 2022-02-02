@@ -14,7 +14,7 @@
         android:layout_marginEnd="150dp"
         android:layout_weight="1"
 
-        android:fontFamily="@font/futurapt_medium"
+        android:fontFamily="@font/futura_pt_medium"
         android:text="@string/login"
         android:textStyle="bold" />
 </LinearLayout>

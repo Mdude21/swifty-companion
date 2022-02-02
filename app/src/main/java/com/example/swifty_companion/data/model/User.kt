@@ -9,5 +9,8 @@ data class User(
     val id: Long,
 
     @SerialName("login")
-    val login: String
+    val login: String,
+
+    @SerialName("image_url")
+    val imageUrl: String
 )

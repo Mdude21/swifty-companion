@@ -1,11 +1,13 @@
 package com.example.swifty_companion.data
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
+import retrofit2.converter.moshi.MoshiConverterFactory
 
 object Networking {
     private val okHttpClient = OkHttpClient.Builder()
@@ -20,6 +22,7 @@ object Networking {
     private val retrofit = Retrofit.Builder()
         .baseUrl("https://api.intra.42.fr")
         .client(okHttpClient)
+//        .addConverterFactory(MoshiConverterFactory.create())
         .addConverterFactory(json.asConverterFactory(contentType))
         .build()
 
