@@ -5,5 +5,5 @@
     <string name="enter_nickname">Enter NickName</string>
     <string name="search">Search</string>
     <string name="email">Email:</string>
-    <string name="phone">Phone:</string>
+    <string name="wallet">Wallets:</string>
 </resources>

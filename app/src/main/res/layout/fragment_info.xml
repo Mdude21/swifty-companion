@@ -59,10 +59,10 @@
         app:layout_constraintVertical_bias="0.265" />
 
     <TextView
-        android:id="@+id/phoneHintTextView"
+        android:id="@+id/walletHintTextView"
         android:layout_width="50dp"
         android:layout_height="25dp"
-        android:text="@string/phone"
+        android:text="@string/wallet"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -71,12 +71,53 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/phoneTextView"
+        android:id="@+id/walletTextView"
         android:layout_width="200dp"
         android:layout_height="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/phoneHintTextView"
+        app:layout_constraintBottom_toBottomOf="@+id/walletHintTextView"
         app:layout_constraintEnd_toEndOf="@+id/emailTextView"
         app:layout_constraintStart_toStartOf="@+id/emailTextView"
-        app:layout_constraintTop_toTopOf="@+id/phoneHintTextView" />
+        app:layout_constraintTop_toTopOf="@+id/walletHintTextView" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="321dp"
+        android:layout_height="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/walletTextView"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/levelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+        app:layout_constraintEnd_toEndOf="@+id/progressBar"
+        app:layout_constraintStart_toStartOf="@+id/progressBar"
+        app:layout_constraintTop_toTopOf="@+id/progressBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        android:layout_marginTop="150dp">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/projectList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="216dp"
+    />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

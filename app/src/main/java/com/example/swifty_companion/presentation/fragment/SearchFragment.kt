@@ -32,6 +32,8 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
 //        viewModel.user.observe(viewLifecycleOwner, {
 //            binding.userLoginText.text = it.login
 //        })
+        Toast.makeText(context, AuthConfig.TOKEN, Toast.LENGTH_SHORT).show()
+        Log.d("mdude token", "${AuthConfig.TOKEN}")
 
         viewModel.user.observe(viewLifecycleOwner, {
             binding.usernameTextView.text = it.login
@@ -50,8 +52,7 @@ class SearchFragment : Fragment(R.layout.fragment_search) {
         binding.usernameTextView.setOnClickListener {
             findNavController().navigate(R.id.action_searchFragment_to_infoFragment)
         }
-        Toast.makeText(context, AuthConfig.TOKEN, Toast.LENGTH_SHORT).show()
-        Log.d("mdude", "${AuthConfig.TOKEN}")
+
     }
 
 //    private fun initList() {

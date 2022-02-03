@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:background="@drawable/login"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -11,6 +12,8 @@
         android:id="@+id/editTextSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/gray"
         android:hint="@string/enter_nickname" />
 
     <Button
@@ -34,6 +37,7 @@
         <TextView
             android:id="@+id/usernameTextView"
             android:layout_width="match_parent"
+            android:textColor="@color/white"
             android:layout_height="100dp"
             android:gravity="center"/>
 

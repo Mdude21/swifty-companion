@@ -19,7 +19,7 @@ class SearchViewModel : ViewModel() {
 
     private val userLiveData = MutableLiveData<User>()
 
-    private val defaultUser = User(0, "Error", "qwe", " asd", "we", "zxc")
+    private val defaultUser = User(0, "Error", "qwe", " asd", "we", "zxc", emptyList(),0, emptyList())
 
     val user: LiveData<User>
         get() = userLiveData

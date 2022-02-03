@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/layout/fragment_auth.xml" value="0.2890625" />
         <entry key="app/src/main/res/layout/fragment_info.xml" value="0.28177083333333336" />
         <entry key="app/src/main/res/layout/fragment_search.xml" value="0.14209726443768997" />
+        <entry key="app/src/main/res/layout/item_projects.xml" value="0.2921875" />
         <entry key="app/src/main/res/layout/item_user.xml" value="0.28541666666666665" />
       </map>
     </option>

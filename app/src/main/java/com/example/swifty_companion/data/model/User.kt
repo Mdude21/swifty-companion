@@ -21,5 +21,14 @@ data class User(
     val displayname: String,
 
     @SerialName("phone")
-    val phone: String
+    val phone: String,
+
+    @SerialName("cursus_users")
+    val cursUsers: List<GradeUser>,
+
+    @SerialName("wallet")
+    val wallet: Int,
+
+    @SerialName("projects_users")
+    val projectUsers: List<ProjectUsers>
 )
