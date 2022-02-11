@@ -4,10 +4,14 @@
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/382612f32a3aa7f5acdcf5d9d5bf9589/transformed/lifecycle-viewmodel-2.5.0-alpha01/res" />
       <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/382612f32a3aa7f5acdcf5d9d5bf9589/transformed/lifecycle-viewmodel-2.5.0-alpha01/jars/classes.jar!/" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/382612f32a3aa7f5acdcf5d9d5bf9589/transformed/lifecycle-viewmodel-2.5.0-alpha01/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bfcaf1f77574512487a0d2f25293a29d/transformed/lifecycle-viewmodel-2.5.0-alpha01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bfcaf1f77574512487a0d2f25293a29d/transformed/lifecycle-viewmodel-2.5.0-alpha01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bfcaf1f77574512487a0d2f25293a29d/transformed/lifecycle-viewmodel-2.5.0-alpha01/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar:///goinfre/mdude/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.5.0-alpha01/7411275a6e8a20347d219d5a6caf7392bc24925b/lifecycle-viewmodel-2.5.0-alpha01-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-viewmodel/2.5.0-alpha01/7411275a6e8a20347d219d5a6caf7392bc24925b/lifecycle-viewmodel-2.5.0-alpha01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

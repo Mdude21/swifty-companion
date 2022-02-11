@@ -59,7 +59,12 @@ class AuthViewModel(application: Application) : AndroidViewModel(application) {
     fun openLoginPage() {
 
         val customTabsIntent = CustomTabsIntent.Builder()
-            .setToolbarColor(ContextCompat.getColor(getApplication(), R.color.background_button_color))
+            .setToolbarColor(
+                ContextCompat.getColor(
+                    getApplication(),
+                    R.color.background_button_color
+                )
+            )
             .build()
 
         val openAuthPageIntent = authService.getAuthorizationRequestIntent(

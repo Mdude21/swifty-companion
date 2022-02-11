@@ -4,12 +4,17 @@
       <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/ec538dfb219252c339deac71794aeb3d/transformed/jetified-appauth-0.11.1/jars/classes.jar!/" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/ec538dfb219252c339deac71794aeb3d/transformed/jetified-appauth-0.11.1/res" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/ec538dfb219252c339deac71794aeb3d/transformed/jetified-appauth-0.11.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8305d9bb9bec9d92afefab1380e1e45c/transformed/jetified-appauth-0.11.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8305d9bb9bec9d92afefab1380e1e45c/transformed/jetified-appauth-0.11.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8305d9bb9bec9d92afefab1380e1e45c/transformed/jetified-appauth-0.11.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar:///goinfre/mdude/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.11.1/3d76396794448208f3ef711392a78685073f074b/appauth-0.11.1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.11.1/3d76396794448208f3ef711392a78685073f074b/appauth-0.11.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar:///goinfre/mdude/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.11.1/4fc191bfa724698f8521e16e158fc9fe8de2812d/appauth-0.11.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.openid/appauth/0.11.1/4fc191bfa724698f8521e16e158fc9fe8de2812d/appauth-0.11.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

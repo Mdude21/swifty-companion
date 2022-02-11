@@ -4,10 +4,14 @@
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/27da504d6d84c1becf8c26535a16d95d/transformed/navigation-runtime-ktx-2.5.0-alpha01/res" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/27da504d6d84c1becf8c26535a16d95d/transformed/navigation-runtime-ktx-2.5.0-alpha01/AndroidManifest.xml" />
       <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/27da504d6d84c1becf8c26535a16d95d/transformed/navigation-runtime-ktx-2.5.0-alpha01/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/32daa52351f474ed8b425cb02c370b43/transformed/navigation-runtime-ktx-2.5.0-alpha01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/32daa52351f474ed8b425cb02c370b43/transformed/navigation-runtime-ktx-2.5.0-alpha01/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/32daa52351f474ed8b425cb02c370b43/transformed/navigation-runtime-ktx-2.5.0-alpha01/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar:///goinfre/mdude/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime-ktx/2.5.0-alpha01/5b8f86fea035328fc9e8c660773037a3401ce25f/navigation-runtime-ktx-2.5.0-alpha01-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime-ktx/2.5.0-alpha01/5b8f86fea035328fc9e8c660773037a3401ce25f/navigation-runtime-ktx-2.5.0-alpha01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

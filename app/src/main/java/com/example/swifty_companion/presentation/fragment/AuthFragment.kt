@@ -26,7 +26,7 @@ class AuthFragment : Fragment(R.layout.fragment_auth) {
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        if(requestCode == AUTH_REQUEST_CODE && data != null) {
+        if (requestCode == AUTH_REQUEST_CODE && data != null) {
             val tokenExchangeRequest = AuthorizationResponse.fromIntent(data)
                 ?.createTokenExchangeRequest()
             val exception = AuthorizationException.fromIntent(data)
@@ -41,14 +41,14 @@ class AuthFragment : Fragment(R.layout.fragment_auth) {
     }
 
     private fun bindViewModel() {
-        binding.buttonLogin.setOnClickListener{
+        binding.buttonLogin.setOnClickListener {
             viewModel.openLoginPage()
         }
         viewModel.loadingLiveData.observe(viewLifecycleOwner, ::updateIsLoading)
         viewModel.openAuthPageLiveData.observe(viewLifecycleOwner, ::openAuthPage)
         viewModel.toastLiveData.observe(viewLifecycleOwner, ::toast)
         viewModel.authSuccessLiveData.observe(viewLifecycleOwner) {
-        Log.d("mdude","its button")
+            Log.d("mdude", "its button")
 
             findNavController().navigate(R.id.action_authFragment_to_searchFragment)
         }
@@ -56,8 +56,6 @@ class AuthFragment : Fragment(R.layout.fragment_auth) {
 
     private fun updateIsLoading(isLoading: Boolean) = with(binding) {
         buttonLogin.isVisible = !isLoading
-//        AuthProgress.isVisible = isLoading
-
     }
 
     private fun openAuthPage(intent: Intent) {

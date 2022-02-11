@@ -6,7 +6,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class GradeUser(
     @SerialName("level")
-    val level : Double,
+    val level: Double,
 
     @SerialName("skills")
     val skills: List<Skills>

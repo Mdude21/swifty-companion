@@ -4,10 +4,14 @@
       <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/017fd3510216f98cffda6884c4c53d9b/transformed/jetified-lifecycle-runtime-ktx-2.5.0-alpha01/jars/classes.jar!/" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/017fd3510216f98cffda6884c4c53d9b/transformed/jetified-lifecycle-runtime-ktx-2.5.0-alpha01/res" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/017fd3510216f98cffda6884c4c53d9b/transformed/jetified-lifecycle-runtime-ktx-2.5.0-alpha01/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eb2ed01abe3bfe785cd7defa55ad6b56/transformed/jetified-lifecycle-runtime-ktx-2.5.0-alpha01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb2ed01abe3bfe785cd7defa55ad6b56/transformed/jetified-lifecycle-runtime-ktx-2.5.0-alpha01/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb2ed01abe3bfe785cd7defa55ad6b56/transformed/jetified-lifecycle-runtime-ktx-2.5.0-alpha01/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar:///goinfre/mdude/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx/2.5.0-alpha01/6d338022f8fa82c24121d5d249fe5daeeb297742/lifecycle-runtime-ktx-2.5.0-alpha01-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime-ktx/2.5.0-alpha01/6d338022f8fa82c24121d5d249fe5daeeb297742/lifecycle-runtime-ktx-2.5.0-alpha01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

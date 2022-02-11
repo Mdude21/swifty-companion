@@ -6,7 +6,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class Skills(
     @SerialName("id")
-    val id : Long,
+    val id: Long,
 
     @SerialName("name")
     val name: String,

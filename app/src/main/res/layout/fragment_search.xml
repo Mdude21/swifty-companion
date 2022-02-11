@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:background="@drawable/login"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:orientation="vertical">
 
     <EditText
         android:id="@+id/editTextSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/enter_nickname"
         android:textColor="@color/white"
-        android:textColorHint="@color/gray"
-        android:hint="@string/enter_nickname" />
+        android:textColorHint="@color/gray" />
 
     <Button
         android:id="@+id/buttonSearch"
@@ -22,6 +21,13 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/futura_pt_medium"
         android:text="@string/search" />
+
+    <ProgressBar
+        android:id="@+id/userProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,9 +43,10 @@
         <TextView
             android:id="@+id/usernameTextView"
             android:layout_width="match_parent"
-            android:textColor="@color/white"
             android:layout_height="100dp"
-            android:gravity="center"/>
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
 
     </LinearLayout>
 

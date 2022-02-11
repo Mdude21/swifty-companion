@@ -9,15 +9,15 @@ data class ProjectUsers(
     val id: Long,
 
     @SerialName("final_mark")
-    val finalMark : Long?,
+    val finalMark: Long?,
 
     @SerialName("status")
     val status: String,
 
     @SerialName("project")
-    val project : Project,
+    val project: Project,
 
     @SerialName("validated?")
-    val validation: Boolean?
+    val validation: Boolean?,
 
-)
+    )

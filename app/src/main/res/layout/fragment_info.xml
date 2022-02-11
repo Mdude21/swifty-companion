@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/login">
 
     <ImageView
         android:id="@+id/imageView"
@@ -19,42 +21,41 @@
 
     <TextView
         android:id="@+id/firstnameTextView"
-        android:layout_width="160dp"
+        android:layout_width="260dp"
         android:layout_height="25dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.128" />
-
-    <TextView
-        android:id="@+id/nickTextView"
-        android:layout_width="75dp"
-        android:layout_height="25dp"
-        app:layout_constraintBottom_toBottomOf="@+id/firstnameTextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/firstnameTextView"
-        app:layout_constraintTop_toTopOf="@+id/firstnameTextView" />
+        app:layout_constraintVertical_bias="0.137" />
 
     <TextView
         android:id="@+id/emailTextView"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="@+id/nickTextView"
-        app:layout_constraintTop_toBottomOf="@+id/firstnameTextView"
-        app:layout_constraintVertical_bias="0.262" />
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/emailHintTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/emailHintTextView"
+        app:layout_constraintVertical_bias="0.253" />
 
     <TextView
         android:id="@+id/emailHintTextView"
         android:layout_width="50dp"
         android:layout_height="25dp"
         android:text="@string/email"
+        android:textColor="@color/background_button_color"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toStartOf="@+id/emailTextView"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/firstnameTextView"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/firstnameTextView"
         app:layout_constraintVertical_bias="0.265" />
 
@@ -62,62 +63,135 @@
         android:id="@+id/walletHintTextView"
         android:layout_width="50dp"
         android:layout_height="25dp"
+        android:layout_marginTop="5dp"
         android:text="@string/wallet"
+        android:textColor="@color/background_button_color"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/emailHintTextView"
         app:layout_constraintTop_toBottomOf="@+id/emailHintTextView"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/walletTextView"
         android:layout_width="200dp"
         android:layout_height="25dp"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/walletHintTextView"
         app:layout_constraintEnd_toEndOf="@+id/emailTextView"
         app:layout_constraintStart_toStartOf="@+id/emailTextView"
-        app:layout_constraintTop_toTopOf="@+id/walletHintTextView" />
+        app:layout_constraintTop_toTopOf="@+id/walletHintTextView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="321dp"
         android:layout_height="47dp"
+        android:scaleY="5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/walletTextView"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintTop_toBottomOf="@+id/evalPointsTextView"
+        app:layout_constraintVertical_bias="0.037" />
 
     <TextView
         android:id="@+id/levelTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="@+id/progressBar"
         app:layout_constraintStart_toStartOf="@+id/progressBar"
         app:layout_constraintTop_toTopOf="@+id/progressBar" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
 
-        android:orientation="vertical"
+    <ScrollView
+        android:id="@+id/projectScrollView"
+        android:layout_width="322dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/recycler_background_color"
+        app:layout_constraintEnd_toEndOf="@+id/progressBar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/projectsTextView"
+        app:layout_constraintTop_toBottomOf="@+id/projectsTextView">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/projectList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="216dp" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/projectsTextView"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:text="@string/projects"
+        android:textColor="@color/background_button_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/progressBar"
         app:layout_constraintTop_toBottomOf="@+id/progressBar"
-        android:layout_marginTop="150dp">
+        app:layout_constraintVertical_bias="0.0" />
 
+    <TextView
+        android:id="@+id/SkillsTextView"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/skills"
+        android:textColor="@color/background_button_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/projectScrollView"
+        app:layout_constraintTop_toBottomOf="@+id/projectScrollView"
+        app:layout_constraintVertical_bias="0.005" />
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/projectList"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="216dp"
-    />
-    </LinearLayout>
+    <ScrollView
+        android:id="@+id/skillScrollView"
+        android:layout_width="322dp"
+        android:layout_height="172dp"
+        android:background="@color/recycler_background_color"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/projectScrollView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/projectScrollView"
+        app:layout_constraintTop_toBottomOf="@+id/SkillsTextView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/skillRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/evalPointsTextView"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/evalution_points"
+        android:textColor="@color/background_button_color"
+        app:layout_constraintEnd_toEndOf="@+id/walletHintTextView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/walletHintTextView"
+        app:layout_constraintTop_toBottomOf="@+id/walletTextView" />
+
+    <TextView
+        android:id="@+id/evalPointsDisplay"
+        android:layout_width="200dp"
+        android:layout_height="25dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/evalPointsTextView"
+        app:layout_constraintEnd_toEndOf="@+id/walletTextView"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/evalPointsTextView"
+        app:layout_constraintTop_toTopOf="@+id/evalPointsTextView"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

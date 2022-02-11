@@ -5,10 +5,15 @@
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/fc7683adc8a1ac902d325d9d1ed98db5/transformed/jetified-vbpd-noreflection-1.3.0/AndroidManifest.xml" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/fc7683adc8a1ac902d325d9d1ed98db5/transformed/jetified-vbpd-noreflection-1.3.0/res" />
       <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/fc7683adc8a1ac902d325d9d1ed98db5/transformed/jetified-vbpd-noreflection-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fc7683adc8a1ac902d325d9d1ed98db5/transformed/jetified-vbpd-noreflection-1.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c4d9ca443db9be3ad06058d26592fa57/transformed/jetified-vbpd-noreflection-1.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c4d9ca443db9be3ad06058d26592fa57/transformed/jetified-vbpd-noreflection-1.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c4d9ca443db9be3ad06058d26592fa57/transformed/jetified-vbpd-noreflection-1.3.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar:///goinfre/mdude/.gradle/caches/modules-2/files-2.1/com.kirich1409.viewbindingpropertydelegate/vbpd-noreflection/1.3.0/2c5095983988db921c1c791e2efafc83d65e3d2c/vbpd-noreflection-1.3.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kirich1409.viewbindingpropertydelegate/vbpd-noreflection/1.3.0/2c5095983988db921c1c791e2efafc83d65e3d2c/vbpd-noreflection-1.3.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

@@ -11,7 +11,7 @@ import com.example.swifty_companion.tools.bindingInflate
 import com.hannesdorfmann.adapterdelegates4.AbsListItemAdapterDelegate
 
 class UserAdapterDelegate :
-    AbsListItemAdapterDelegate<User, User, UserAdapterDelegate.Holder>(){
+    AbsListItemAdapterDelegate<User, User, UserAdapterDelegate.Holder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup): UserAdapterDelegate.Holder {
         return Holder(parent.bindingInflate(ItemUserBinding::inflate))
@@ -25,10 +25,9 @@ class UserAdapterDelegate :
         holder.bind(item)
     }
 
-
     class Holder(
         private val binding: ItemUserBinding
-    ) : RecyclerView.ViewHolder(binding.root){
+    ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: User) {
             binding.usernameTextView.text = item.login

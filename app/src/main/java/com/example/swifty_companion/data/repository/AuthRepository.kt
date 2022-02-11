@@ -5,7 +5,7 @@ import android.util.Log
 import com.example.swifty_companion.data.AuthConfig
 import net.openid.appauth.*
 
-class AuthRepository{
+class AuthRepository {
     fun getAuthRequest(): AuthorizationRequest {
         val serviceConfiguration = AuthorizationServiceConfiguration(
             Uri.parse(AuthConfig.AUTH_URI),
@@ -26,7 +26,7 @@ class AuthRepository{
     }
 
     fun performTokenRequest(
-        authService : AuthorizationService,
+        authService: AuthorizationService,
         tokenRequest: TokenRequest,
         onComplete: () -> Unit,
         onError: () -> Unit
@@ -35,6 +35,7 @@ class AuthRepository{
             when {
                 response != null -> {
                     AuthConfig.TOKEN = response.accessToken.orEmpty()
+                    AuthConfig.REFRESH_TOKEN = response.refreshToken.orEmpty()
                     Log.d("token is = ", "${AuthConfig.TOKEN}")
                     onComplete()
                 }

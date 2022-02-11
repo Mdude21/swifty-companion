@@ -4,7 +4,7 @@ import com.example.swifty_companion.data.Networking
 import com.example.swifty_companion.data.model.User
 
 class SearchRepository {
-    suspend fun getUserByLogin(login : String) : User {
+    suspend fun getUserByLogin(login: String): User {
         return Networking.intraApi.getUserByLogin(login)
     }
 }

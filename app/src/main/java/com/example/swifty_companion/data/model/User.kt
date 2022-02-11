@@ -11,6 +11,9 @@ data class User(
     @SerialName("login")
     val login: String,
 
+    @SerialName("correction_point")
+    val correctionPoint: Long,
+
     @SerialName("image_url")
     val imageUrl: String,
 

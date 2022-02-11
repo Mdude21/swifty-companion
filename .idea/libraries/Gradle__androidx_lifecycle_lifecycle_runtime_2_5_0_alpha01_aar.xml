@@ -4,10 +4,14 @@
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/92027719b0709c8c86ee6ff734b83245/transformed/lifecycle-runtime-2.5.0-alpha01/AndroidManifest.xml" />
       <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/92027719b0709c8c86ee6ff734b83245/transformed/lifecycle-runtime-2.5.0-alpha01/jars/classes.jar!/" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/92027719b0709c8c86ee6ff734b83245/transformed/lifecycle-runtime-2.5.0-alpha01/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/67ac23cf9f960bbf4ba89c42e27670a1/transformed/lifecycle-runtime-2.5.0-alpha01/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/67ac23cf9f960bbf4ba89c42e27670a1/transformed/lifecycle-runtime-2.5.0-alpha01/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/67ac23cf9f960bbf4ba89c42e27670a1/transformed/lifecycle-runtime-2.5.0-alpha01/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar:///goinfre/mdude/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.5.0-alpha01/ae7040cf314de81d20ac69f28f5ab6c9a2c0d1ab/lifecycle-runtime-2.5.0-alpha01-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.5.0-alpha01/ae7040cf314de81d20ac69f28f5ab6c9a2c0d1ab/lifecycle-runtime-2.5.0-alpha01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

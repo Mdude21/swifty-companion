@@ -4,10 +4,14 @@
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/5b73e03db440da0fb2e91382340a468d/transformed/navigation-common-2.5.0-alpha01/AndroidManifest.xml" />
       <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/5b73e03db440da0fb2e91382340a468d/transformed/navigation-common-2.5.0-alpha01/jars/classes.jar!/" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/5b73e03db440da0fb2e91382340a468d/transformed/navigation-common-2.5.0-alpha01/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/91229c5eae68dc3151a0dd89def8b68a/transformed/navigation-common-2.5.0-alpha01/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/91229c5eae68dc3151a0dd89def8b68a/transformed/navigation-common-2.5.0-alpha01/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/91229c5eae68dc3151a0dd89def8b68a/transformed/navigation-common-2.5.0-alpha01/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar:///goinfre/mdude/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-common/2.5.0-alpha01/542cff9227a9f2d2ce9c5756787d71b2b0676e38/navigation-common-2.5.0-alpha01-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.navigation/navigation-common/2.5.0-alpha01/542cff9227a9f2d2ce9c5756787d71b2b0676e38/navigation-common-2.5.0-alpha01-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

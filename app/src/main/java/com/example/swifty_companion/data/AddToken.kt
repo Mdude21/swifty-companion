@@ -1,11 +1,9 @@
 package com.example.swifty_companion.data
 
-import com.example.swifty_companion.data.repository.AuthRepository
 import okhttp3.Interceptor
 import okhttp3.Response
 
 class AddToken : Interceptor {
-
 
     override fun intercept(chain: Interceptor.Chain): Response {
         val token = AuthConfig.TOKEN
@@ -15,10 +13,8 @@ class AddToken : Interceptor {
             originalRequest.newBuilder()
                 .header("Authorization", "Bearer $token")
                 .build()
-        } else {
+        } else
             originalRequest
-        }
-
         return chain.proceed(request)
     }
 }

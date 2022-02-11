@@ -5,10 +5,15 @@
       <root url="jar:///goinfre/mdude/.gradle/caches/transforms-3/8b94b2d8423bc92dd777b4aafa26e1d5/transformed/versionedparcelable-1.1.1/jars/classes.jar!/" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/8b94b2d8423bc92dd777b4aafa26e1d5/transformed/versionedparcelable-1.1.1/res" />
       <root url="file:///goinfre/mdude/.gradle/caches/transforms-3/8b94b2d8423bc92dd777b4aafa26e1d5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8b94b2d8423bc92dd777b4aafa26e1d5/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f2b931ede12571136f49fa5dcf9fa4f5/transformed/versionedparcelable-1.1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f2b931ede12571136f49fa5dcf9fa4f5/transformed/versionedparcelable-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f2b931ede12571136f49fa5dcf9fa4f5/transformed/versionedparcelable-1.1.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar:///goinfre/mdude/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/d9085927216387af679d18b6f472bc0fc5c7cc81/versionedparcelable-1.1.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/d9085927216387af679d18b6f472bc0fc5c7cc81/versionedparcelable-1.1.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

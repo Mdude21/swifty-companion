@@ -3,8 +3,6 @@ package com.example.swifty_companion.data
 import com.example.swifty_companion.data.model.User
 import net.openid.appauth.ResponseTypeValues
 
-//import net.openid.appauth.ResponseTypeValues
-
 object AuthConfig {
     const val TOKEN_URI = "https://api.intra.42.fr/oauth/token"
     const val AUTH_URI = "https://api.intra.42.fr/oauth/authorize"
@@ -15,7 +13,8 @@ object AuthConfig {
     const val STATE = "asd"
     const val RESPONSE_TYPE = ResponseTypeValues.CODE
     const val CALLBACK_URL = "school://kts.studio/callback"
-    var TOKEN : String? = null
-    var User : User? = null
+    var TOKEN: String? = null
+    var REFRESH_TOKEN: String? = null
+    var User: User? = null
 
 }
